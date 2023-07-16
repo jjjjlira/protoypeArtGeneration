@@ -24,8 +24,8 @@ import openai
 import fitz         # this is pymupdf
 
 
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-OPENAI_API_KEY = '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'
+openai.api_key = os.getenv("OPENAI_API_KEY")
+# OPENAI_API_KEY = 
 openai.api_key = OPENAI_API_KEY
 from pypdf import PdfReader
 
